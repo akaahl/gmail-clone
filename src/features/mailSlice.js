@@ -12,9 +12,6 @@ export const mailSlice = createSlice({
       state.sendMessageisOpen = true;
     },
     closeSendMessage: (state) => {
-      state.sendMessageIsOpen = false;
-    },
-    close: (state) => {
       state.sendMessageisOpen = false;
     },
   },
