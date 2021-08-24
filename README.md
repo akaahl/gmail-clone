@@ -1,6 +1,6 @@
 ## Getting Started
 
-Demo can be found [here](https://clone-fbd0a.web.app/)
+Demo can be found [here](https://gmail-clone-one.vercel.app/)
 
 Authentication is provided by Firebase, you may use your email for signup.
 
