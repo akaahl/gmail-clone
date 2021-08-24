@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./App.css";
 import Header from "./components/Header/Header";
 import Sidebar from "./components/Sidebar/Sidebar";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Mail from "./components/Mail/Mail";
 import EmailList from "./components/EmailList/EmailList";
 import SendMail from "./components/SendMail/SendMail";
@@ -30,7 +30,7 @@ function App() {
         );
       }
     });
-  }, []);
+  }, [dispatch]);
 
   return (
     <Router>
