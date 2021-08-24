@@ -76,7 +76,7 @@ function EmailList() {
       </div>
 
       <div className="emailList__list">
-        {/* <EmailRow
+        <EmailRow
           title="What's up?"
           subject="Yo, long time no see"
           description="Mind you, this is a test email"
@@ -87,7 +87,79 @@ function EmailList() {
           subject="Yo, long time no see"
           description="Mind you, this is a test email,Mind you, this is a test email,Mind you, this is a test email"
           time="10pm"
-        /> */}
+        />
+        <EmailRow
+          title="What's up?"
+          subject="Yo, long time no see"
+          description="Mind you, this is a test email"
+          time="10pm"
+        />
+        <EmailRow
+          title="What's up?"
+          subject="Yo, long time no see"
+          description="Mind you, this is a test email,Mind you, this is a test email,Mind you, this is a test email"
+          time="10pm"
+        />
+        <EmailRow
+          title="What's up?"
+          subject="Yo, long time no see"
+          description="Mind you, this is a test email"
+          time="10pm"
+        />
+        <EmailRow
+          title="What's up?"
+          subject="Yo, long time no see"
+          description="Mind you, this is a test email,Mind you, this is a test email,Mind you, this is a test email"
+          time="10pm"
+        />
+        <EmailRow
+          title="What's up?"
+          subject="Yo, long time no see"
+          description="Mind you, this is a test email"
+          time="10pm"
+        />
+        <EmailRow
+          title="What's up?"
+          subject="Yo, long time no see"
+          description="Mind you, this is a test email,Mind you, this is a test email,Mind you, this is a test email"
+          time="10pm"
+        />
+        <EmailRow
+          title="What's up?"
+          subject="Yo, long time no see"
+          description="Mind you, this is a test email"
+          time="10pm"
+        />
+        <EmailRow
+          title="What's up?"
+          subject="Yo, long time no see"
+          description="Mind you, this is a test email,Mind you, this is a test email,Mind you, this is a test email"
+          time="10pm"
+        />
+        <EmailRow
+          title="What's up?"
+          subject="Yo, long time no see"
+          description="Mind you, this is a test email"
+          time="10pm"
+        />
+        <EmailRow
+          title="What's up?"
+          subject="Yo, long time no see"
+          description="Mind you, this is a test email,Mind you, this is a test email,Mind you, this is a test email"
+          time="10pm"
+        />
+        <EmailRow
+          title="What's up?"
+          subject="Yo, long time no see"
+          description="Mind you, this is a test email"
+          time="10pm"
+        />
+        <EmailRow
+          title="What's up?"
+          subject="Yo, long time no see"
+          description="Mind you, this is a test email,Mind you, this is a test email,Mind you, this is a test email"
+          time="10pm"
+        />
 
         {emails.map(({ id, data: { to, subject, message, timestamp } }) => (
           <EmailRow
